@@ -1,0 +1,97 @@
+
+
+.class1 {
+   margin: 25px; 
+   left: 16px;
+   right: 32px; 
+   width: 32px; 
+   height: 8px; 
+   border: 5px solid black;
+}
+
+
+padding: {
+    left  16px;
+    right: 16px;
+    height: 32px;
+    width: 32px;
+}
+    
+
+.paragraf {
+      color: red;
+      border: 1px solid black;
+}
+
+.paragraf1{
+    border: 1px solid black;
+}
+
+.class2 {
+    width: 75px;
+    height: 75px;
+    border: 5px solid black; 
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class2:hover {
+    border-color: red;
+}
+
+.classDiv {
+    width: 250px;
+    height: 50px;
+    border: 5px solid red
+    
+}
+
+.classDiv1 {
+    width: 25%;
+    height: 50%;
+    border: 1px solid black;
+    position: absolute;   
+    top: 25%;
+    left: 37.5%;
+}
+
+
+.classRelative {
+    position: relative;
+}
+
+.classAbsolute {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.titlul{
+    content: Aici va fitextul meu;
+    color: blueviolet;
+    font-size: 32px;
+}
+
+.titlul::before{
+    content: "inainte";
+    font-style: italic;
+    font-size: 16px;
+     color: red;
+}
+
+.titlul::after{
+content: "dupa";
+ font-style: italic; 
+ font-size: 16px;
+ color: yellow;
+}
+
+.titlul::backdrop{
+    content: "in fata";
+    font-style: italic;
+    font-size: 16px;
+    color: blue;
+}
